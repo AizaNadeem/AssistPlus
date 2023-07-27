@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="F:/lib/agileplm/servlet-api.jar"/>
+	<classpathentry kind="lib" path="F:/lib/jars/jars/AgileAPI.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

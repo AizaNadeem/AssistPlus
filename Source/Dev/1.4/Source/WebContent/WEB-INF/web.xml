@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>AssistPlus</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+ 
+ <servlet>
+        <servlet-name>GetAssistText</servlet-name>
+        <servlet-class>com.XACS.Assist.Servlet.AssistPlus</servlet-class>
+    </servlet>
+ <servlet>
+ 	<description>
+ 	</description>
+ 	<display-name>loadClasses</display-name>
+ 	<servlet-name>loadClasses</servlet-name>
+ 	<servlet-class>com.XACS.Assist.Servlet.ClassListLoader</servlet-class>
+ </servlet>
+
+ <servlet>
+ 	<description>
+ 	</description>
+ 	<display-name>loadAttributes</display-name>
+ 	<servlet-name>loadAttributes</servlet-name>
+ 	<servlet-class>com.XACS.Assist.Servlet.AttributeListLoader</servlet-class>
+ </servlet>
+ <servlet>
+ 	<description>
+ 	</description>
+ 	<display-name>loadAssistTexts</display-name>
+ 	<servlet-name>loadAssistTexts</servlet-name>
+ 	<servlet-class>com.XACS.Assist.Servlet.AssistTextListLoader</servlet-class>
+ </servlet>
+ <servlet>
+ 	<description>
+ 	</description>
+ 	<display-name>loadRoles</display-name>
+ 	<servlet-name>loadRoles</servlet-name>
+ 	<servlet-class>com.XACS.Assist.Servlet.RolesLoader</servlet-class>
+ </servlet>
+ <servlet>
+ 	<description>
+ 	</description>
+ 	<display-name>loadConfig</display-name>
+ 	<servlet-name>loadConfig</servlet-name>
+ 	<servlet-class>com.XACS.Assist.Servlet.ConfigLoader</servlet-class>
+ </servlet>
+ 
+ <servlet>
+ 	<description>
+ 	</description>
+ 	<display-name>activate</display-name>
+ 	<servlet-name>activate</servlet-name>
+ 	<servlet-class>com.XACS.Assist.Servlet.Activate</servlet-class>
+ </servlet>
+ 
+ <servlet>
+ 	<description>
+ 	</description>
+ 	<display-name>auth</display-name>
+ 	<servlet-name>auth</servlet-name>
+ 	<servlet-class>com.XACS.Assist.Servlet.Authenticate</servlet-class>
+ </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>GetAssistText</servlet-name>
+        <url-pattern>/GetAssistText</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>loadClasses</servlet-name>
+    	<url-pattern>/loadClasses</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>loadAttributes</servlet-name>
+    	<url-pattern>/loadAttributes</url-pattern>
+    </servlet-mapping>
+        <servlet-mapping>
+    	<servlet-name>loadAssistTexts</servlet-name>
+    	<url-pattern>/loadAssistTexts</url-pattern>
+    </servlet-mapping>
+        <servlet-mapping>
+        	<servlet-name>loadRoles</servlet-name>
+        	<url-pattern>/loadRoles</url-pattern>
+        </servlet-mapping>
+        <servlet-mapping>
+        	<servlet-name>loadConfig</servlet-name>
+        	<url-pattern>/loadConfig</url-pattern>
+        </servlet-mapping>
+        <servlet-mapping>
+        	<servlet-name>auth</servlet-name>
+        	<url-pattern>/auth</url-pattern>
+        </servlet-mapping>
+        
+        <servlet-mapping>
+        	<servlet-name>activate</servlet-name>
+        	<url-pattern>/activate</url-pattern>
+        </servlet-mapping>
+    
+</web-app>

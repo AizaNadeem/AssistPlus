@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Apache Tomcat/apache-tomcat-6.0.35/apache-tomcat-6.0.35/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/AgileAPI.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/gson-2.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/json.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/sqlitejdbc-v056.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/X_Agile.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mhanif/Documents/Workspace/AssistPlus/WebContent/WEB-INF/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mhanif/Documents/Workspace/AssistPlus/WebContent/WEB-INF/lib/poi-3.10-beta1-20130628.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mhanif/Documents/Workspace/AssistPlus/WebContent/WEB-INF/lib/poi-ooxml-3.10-beta1-20130628.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mhanif/Documents/Workspace/AssistPlus/WebContent/WEB-INF/lib/poi-ooxml-schemas-3.10-beta1-20130628.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mhanif/Documents/Workspace/AssistPlus/WebContent/WEB-INF/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mhanif/Documents/Workspace/AssistPlus/WebContent/WEB-INF/lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mhanif/Documents/Workspace/AssistPlus/WebContent/WEB-INF/lib/common-lang3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mhanif/Documents/Workspace/AssistPlus/WebContent/WEB-INF/lib/commons-fileupload-1.3.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

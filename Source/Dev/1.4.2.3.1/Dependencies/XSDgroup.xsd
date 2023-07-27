@@ -1,0 +1,73 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://assistplus.com"  xmlns="http://assistplus.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="AssistPlus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Text">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AssistText" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:int" name="TextID"/>
+                    <xs:element type="xs:int" name="ClassID"/>
+                    <xs:element type="xs:int" name="AttrID"/>
+                    <xs:element type="xs:string" name="AssistText"/>
+                    <xs:element type="xs:string" name="fontcolor"/>
+                    <xs:element type="xs:string" name="background"/>
+                    <xs:element type="xs:string" name="workflowID"/>
+                    <xs:element type="xs:string" name="workflowStatusId"/>
+                    <xs:element type="xs:string" name="DateCreated"/>
+                    <xs:element type="xs:boolean" name="isDiffColor"/>
+                    <xs:element name="RoleList">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:int" name="RoleID"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="ClassName"/>
+                    <xs:element type="xs:string" name="AttributeName"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Roles">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserGroupPriority" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:int" name="RoleID"/>
+                    <xs:element type="xs:string" name="Role"/>
+                    <xs:element type="xs:int" name="Priority"/>
+                    <xs:element type="xs:string" name="fontcolor"/>
+                    <xs:element type="xs:string" name="background"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LabelColors">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LabelColor" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:int" name="AttrID"/>
+					<xs:element type="xs:int" name="ColorID"/>
+					<xs:element type="xs:string" name="AssistColor"/>
+                    <xs:element type="xs:int" name="ClassID"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="version"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

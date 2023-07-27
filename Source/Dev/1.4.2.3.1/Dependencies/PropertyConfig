@@ -1,0 +1,31 @@
+# Define the root logger with appender file
+log4j.logger.com.XACS.Assist= DEBUG, Console, ERROR_FILE, INFO_FILE
+log4j.additivity.com.XACS.Assist=false
+
+
+# Define the file appender
+log4j.appender.ERROR_FILE=org.apache.log4j.FileAppender
+log4j.appender.ERROR_FILE.File=${rootPath}/Logs/ERROR.out
+log4j.appender.ERROR_FILE.Threshold=ERROR
+
+log4j.appender.INFO_FILE=org.apache.log4j.FileAppender
+log4j.appender.INFO_FILE.File=${rootPath}/Logs/INFO.out
+log4j.appender.INFO_FILE.Threshold=DEBUG
+log4j.appender.INFO_FILE.filter.filter1=org.apache.log4j.varia.LevelRangeFilter
+log4j.appender.INFO_FILE.filter.filter1.levelMin=DEBUG
+log4j.appender.INFO_FILE.filter.filter1.levelMax=INFO
+
+# Define the layout for file appender
+log4j.appender.ERROR_FILE.layout=org.apache.log4j.PatternLayout
+log4j.appender.ERROR_FILE.layout.conversionPattern=%-5p : %d - %C - %M - %L - %m%n
+
+log4j.appender.INFO_FILE.layout=org.apache.log4j.PatternLayout
+log4j.appender.INFO_FILE.layout.conversionPattern=%-5p : %d - %C - %M - %L - %m%n
+
+#For console
+log4j.appender.Console=org.apache.log4j.ConsoleAppender
+log4j.appender.Console.layout=org.apache.log4j.PatternLayout
+log4j.appender.Console.layout.conversionPattern=%m%n
+
+
+

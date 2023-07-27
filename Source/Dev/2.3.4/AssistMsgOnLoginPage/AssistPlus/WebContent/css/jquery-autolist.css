@@ -1,0 +1,10 @@
+
+.ui-autolist {overflow: hidden;min-height: 1.75em;cursor: text;font-family:tahoma,arial,sans-serif;font-size:11px;}
+.ui-autolist-values {vertical-align:top;display:inline;overflow: hidden;font-family:tahoma,arial,sans-serif;font-size:11px;}
+.ui-autolist-selected {margin: 2px;padding: 0 2px 0 3px;cursor: default;font-family:tahoma,arial,sans-serif;font-size:11px;}
+.ui-autolist-remove {margin-left:4px;display:inline-block;}
+ .ie .ui-autolist-remove,.ie8 .ui-autolist-remove,.firefox .ui-autolist-remove,.webkit .ui-autolist-remove {float:right;}
+.ui-autolist-input {display: inline;overflow: hidden;margin: 3px;	font-family:tahoma,arial,sans-serif;font-size:11px;}
+
+
+ 

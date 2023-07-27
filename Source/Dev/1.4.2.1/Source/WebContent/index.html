@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Assist+</title>
+<link rel="stylesheet" href="css/reset.css" type="text/css" />
+<link rel="stylesheet" href="css/newstyle.css" type="text/css" />
+<link rel="stylesheet" href="css/jquery-ui.css" type="text/css" />
+<link rel="stylesheet" href="css/jquery.colourPicker.css" type="text/css" />
+<link rel="stylesheet" href="css/jquery.treeTable.css" type="text/css" />
+<link rel="stylesheet" href="css/jquery-autolist.css" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/tiny_mce/jquery.tinymce.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script  type="text/javascript">
+var LicStatus='';
+var _status = false;
+var LicInfo=false;
+var accessTypeRole=true;
+
+</script>
+<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+<script type="text/javascript" src="js/AssistTemplate.js"></script>
+<script type="text/javascript" src="js/jquery.colourPicker.js"></script>
+<script type="text/javascript" src="js/AssistColorPicker.js"></script>
+<script type="text/javascript" src="js/templateEvents.js"></script>
+<script type="text/javascript" src="js/AssistRequests.js"></script>
+<script type="text/javascript" src="js/AssistSecurity.js"></script>
+<script type="text/javascript" src="js/AssistHTML.js"></script>
+<script type="text/javascript" src="js/AssistSettings.js"></script>
+<script type="text/javascript" src="js/AssistText.js"></script>
+<script type="text/javascript" src="js/AssistEvents.js"></script>
+<script type="text/javascript" src="js/License.js"></script>
+<script type="text/javascript" src="js/LicHTML.js"></script>
+<script type="text/javascript" src="js/LicRequest.js"></script>
+<script type="text/javascript" src="js/jquery.treeTable.min.js"></script>
+<script type="text/javascript" src="js/jquery-autolist.min.js"></script>
+</head>
+<body>
+<div id="header-bar"><img src="img/logo-plmxl.png" style='height: 25px; padding: 12px 0 0 17px; width: 344px;' alt="" /></div>
+<div id="body-wrapper">
+<div id="sidebar">
+<div id="sidebar-wrapper">
+<h1 id="sidebar-title"><img src="img/AssistPlusConsoleLogo.png" alt="Assist+" style="width: 170px" /></h1>
+<ul id="main-nav">
+	
+	<li><a class="nav-top-item" id='settings'>Settings</a>
+	<ul>
+		<li><a id='config'>Configuration</a></li>
+		<li><a id='roles'>Role Priority</a></li>
+		<li><a id='changePwd'>Change Password</a></li>
+	</ul>
+	</li>
+	
+	<li><a class="nav-top-item">AssistText </a>
+	<ul>
+		<li><a id='addText'>Add Text</a></li>
+	</ul>
+	</li>
+	<li><a class="nav-top-item"> About </a>
+		<ul>
+			<li><a id='lic'>License Info</a></li>
+		</ul>
+	</li>
+	<li id='signout'><a class="nav-top-item"> Signout </a></li>
+</ul>
+</div>
+</div>
+<div id="main-content">
+<h2>Welcome Admin</h2>
+<div class="clear"></div>
+<div class="content-box">
+<div class="content-box-header">
+<h3>Content box</h3>
+<div class="clear"></div>
+</div>
+<div class="content-box-content"></div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div id="login-wrapper">
+<div id="login-top"><img src="img/logo-glow.png" alt="Flex logo" id="logo" style="margin-left:20px;" width="325px"></div>
+<div id="login-content">
+<p><label>Username</label> <input type="text" class="text-input" id="username"></p>
+<div class="clear"></div>
+<p><label>Password</label> <input type="password" class="text-input" id="password"></p>
+<div class="clear"></div>
+<div style="text-align: right; width: 100%;"><span class="button login">Login</span></div>
+</div>
+<div>
+	<p class="copyright" >PLMXL Assist+ v1.4.2<br>&copy; 2013, Xavor Corporation, All rights reserved</p>
+</div>
+</div>
+
+<div id='editDialog'>
+	<label id='editTextRoleLabel'>Roles</label><div id='dialog-roles'></div>
+	<div class='clear'></div>
+		<div style="line-height: 38px;"><span style='display:inline-block;'>Theme:&nbsp;&nbsp;&nbsp;&nbsp;</span><span id='diffCheckBox'></span><span id='dialog-colors' style='display:inline-block;'></span></div>
+			
+	<div class='clear'></div>
+		<p id="mce_editor"><label>Text</label><textarea id='mce_text'></textarea></p>
+</div>
+
+<div class="notification info login" style="display: block;">
+<span class='img'>&nbsp;</span> <div>Please provide your Assist+ Username and Password to Login.</div>
+</div>
+
+</body>
+</html>

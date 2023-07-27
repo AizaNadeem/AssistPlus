@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+	<title>Assist+</title>
+	
+	<link rel="stylesheet" href="css/reset.css" type="text/css" />
+	
+	<link rel="stylesheet" href="css/kendo.common.min.css" />
+	<link rel="stylesheet" href="css/kendo.default.min.css" />
+	<link rel="stylesheet" href="css/newstyle.css" type="text/css" />
+	<link rel="stylesheet" href="css/jquery-ui.css" type="text/css" />
+	<link rel="stylesheet" href="css/jquery.colourPicker.css" type="text/css" />
+	<link rel="stylesheet" href="css/jquery.treeTable.css" type="text/css" />
+	<link rel="stylesheet" href="css/jquery-autolist.css" type="text/css" />
+	
+</head>
+
+<body>
+	<div id="header-bar"></div>
+
+	<div id="body-wrapper">
+		<div id="sidebar">
+			<div id="sidebar-wrapper">
+				<h1 id="sidebar-title">
+					<img src="img/landing-logo.png" alt="Assist+" class='logo-plmxl' />
+				</h1>
+				<ul id="main-nav">
+					<li><a class="nav-top-item" id='settings'>Settings</a>
+						<ul>
+							<li><a id='config'>Configuration</a></li>
+							<li><a id='roles'>Role Priority</a></li>
+							<li><a id='changePwd'>Change Password</a></li>
+						</ul></li>
+					<li id='assistTextLi'><a class="nav-top-item">AssistText</a>
+						<ul>
+							<li><a id='addText'>Add Text</a></li>
+							<li><a id='searchText'>Search Text</a></li>
+						</ul></li>
+					<li id='data-import-export'><a class="nav-top-item">Data</a>
+						<ul>
+							<li><a id='import'>Import/Export XML</a></li>
+							<li><a id='import-xlsx'>Import/Export XLSX</a></li>
+						</ul></li>
+					<li><a class="nav-top-item">Reports</a>
+						<ul>
+							<li><a id='optout'>Opt Out Report</a></li>
+							<li><a id='usage-report-tab'>Usage Report</a></li>
+						</ul></li>
+					<li><a class="nav-top-item">About</a>
+						<ul>
+							<li><a id='lic'>License Info</a></li>
+						</ul></li>
+					<li id='signout'><a class="nav-top-item">Signout</a></li>
+				</ul>
+			</div>
+			
+			<img src="img/xavorlogo-loginpage.png" class='logo-xavor' alt="" />
+			<label id="poweredby-label-loggedin">All rights reserved</label>
+		</div>
+		
+		<div id="main-content">
+			<div class="clear"></div>
+			<div class="content-box">
+				<div class="content-box-header">
+					<h3>Content box</h3>
+					<div class="clear"></div>
+				</div>
+				<div class="content-box-content"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+	<div id="login-wrapper">
+		<div id="login-top"></div>
+		
+		<div id="login-content">
+			<img src="img/login-logo.png" alt="Flex logo" id="login-logo">
+			<div id="username1">
+				<p>
+					<label>Username:</label>
+					<input type="text" class="text-input" id="username" />
+				</p>
+			</div>
+			<div class="clear"></div>
+			<div id="password1">
+				<p>
+					<label>Password:</label>
+					<input type="password" class="text-input" id="password" />
+				</p>
+			</div>
+			<span class="button login" id='loginButton'>Login</span>
+		</div>
+		
+		<div class="copyright">
+			<label id="poweredby-label">Assist+ v2.4 © 2021</label>
+			<img src="img/xavorlogo-loginpage.png" alt="Xavor logo" id="xlogo" />
+			<label id="poweredby-label">All rights reserved</label>
+		</div>
+	</div>
+
+	<div id='editDialog'>
+		<div id='workflow-div'>
+			<label id='editTextWorkflowLabel'>Workflows / Lifecycles:</label> <br>
+			<select id='dialog-workflowSelect' data-Textid='' data-selectedStatus=''></select> <br>
+			<select multiple='multiple' size=3 id='dialog-statusSelect'></select>
+		</div>
+		<div id='roles-div'>
+			<label id='editTextRoleLabel'>Roles:</label>
+			<div id='dialog-roles'></div>
+		</div>
+		<div class='clear'></div>
+		<div class='colorContainer'>
+			<span id='dialog-colors'></span> <span class='themeColor'>Theme:</span>
+		</div>
+		<div class='clear'></div>
+		<p id="mce_editor">
+			<label>Text</label>
+			<textarea id='mce_text'></textarea>
+		</p>
+	</div>
+
+	<div class="notification info login" id='loginNotify' style='opacity:1;'>
+		<span class='img'>&nbsp;</span>
+		<div>Please provide your Assist+ Username and Password to Login.</div>
+	</div>
+
+	<div id="dialog-confirm-priority" title="Remove Priority?"></div>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/tinymce/jquery.tinymce.min.js"></script>
+	<script type="text/javascript" src="js/tinymce/tinymce.min.js"></script>
+	
+	<script type="text/javascript" src="js/kendo.all.min.js"></script>
+	<script type="text/javascript" src="js/jszip.min.js"></script>
+	<script type="text/javascript" src="js/pako_deflate.min.js"></script>
+	
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript">
+		var LicStatus='';
+		var _status=false;
+		var LicInfo=false;
+		var accessTypeRole=true;
+	</script>
+	<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+	<script type="text/javascript" src="js/jquery.form.js"></script>
+	<script type="text/javascript" src="js/AssistTemplate.js"></script>
+	<script type="text/javascript" src="js/jquery.colourPicker.js"></script>
+	<script type="text/javascript" src="js/AssistColorPicker.js"></script>
+	<script type="text/javascript" src="js/templateEvents.js"></script>
+	<script type="text/javascript" src="js/AssistRequests.js"></script>
+	<script type="text/javascript" src="js/AssistSecurity.js"></script>
+	<script type="text/javascript" src="js/AssistHTML.js"></script>
+	<script type="text/javascript" src="js/AssistSettings.js"></script>
+	<script type="text/javascript" src="js/AssistText.js"></script>
+	<script type="text/javascript" src="js/AssistSearch.js"></script>
+	<script type="text/javascript" src="js/AssistEvents.js"></script>
+	<script type="text/javascript" src="js/License.js"></script>
+	<script type="text/javascript" src="js/OptOut.js"></script>
+	<script type="text/javascript" src="js/usage-report.js"></script>
+	<script type="text/javascript" src="js/LicHTML.js"></script>
+	<script type="text/javascript" src="js/LicRequest.js"></script>
+	<script type="text/javascript" src="js/jquery.treeTable.min.js"></script>
+	<script type="text/javascript" src="js/jquery-autolist.min.js"></script>
+	<script type="text/javascript" src="js/json2.js"></script>
+	<script type="text/javascript" src="js/jquery.tablesorter.js"></script>
+	<script type="text/javascript" src="js/tinybox2/tinybox.js"></script>
+
+</body>
+</html>

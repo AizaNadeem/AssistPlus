@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>ajax</title>
+	<script type="text/javascript" src='/AssistPlus/agileAssist.js'></script>
+	<script type="text/javascript" charset="utf-8">        	
+
+	var domain = document.domain;
+    if(domain[domain.length-1]!==".") {
+        var domains = domain.split(".");
+        if (domains.length >= 2) {
+            document.domain =domains[domains.length - 2] + "." + domains[domains.length - 1];
+        }
+    }
+        
+	var XHR = function( args, optCallback ) {
+        if (!args || !args.url) {
+	        if (typeof args.error == 'function') {
+	            args.error({
+	                error: "Missing required arguments."
+	            });
+	        }
+	    }
+		
+	    var xmlHttp;
+	    try {
+	        xmlHttp = new XMLHttpRequest();
+	    } catch(e) {
+	        try {
+	            xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+	        } catch(e) {
+	            try {
+	                xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+	            } catch(e) {
+	                alert("Your browser does not support AJAX!");
+	                return false;
+	            }
+	        }
+	    }
+		
+	    xmlHttp.onreadystatechange = function( eve ) {
+	        if ( xmlHttp.readyState == 4 ) {
+	            //assign empty function to break closures.  IE 6 threw error when assigning null value.
+	            xmlHttp.onreadystatechange = function( ) { };
+	            var xhrResponseObject = {
+	                status: xmlHttp.status,
+	                responseText: xmlHttp.responseText
+	            }
+	            if( optCallback ) {
+	                optCallback( xhrResponseObject );
+	            }
+	            else if( args.callback ) {
+	                args.callback( xhrResponseObject );
+	            };
+	        }
+	    }
+	    //default xhr requests are async.  Pass in async param if defined.
+	    xmlHttp.open("POST", args.url, args.async == undefined ? true : args.async );
+		if( args.addHash ) {
+			xmlHttp.setRequestHeader( args.Security.header, args.Security.hash );
+		}
+		
+	    xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+		try {
+			xmlHttp.send(args.params);
+		}
+		catch(e){
+			// ff throws exceptions when there is a network error. This will prevent it from doing so.
+		}
+	    return xmlHttp;
+	}
+	
+	
+    </script>
+	
+</head>
+<body>
+
+</body>
+</html>

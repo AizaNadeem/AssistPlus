@@ -1,0 +1,113 @@
+TERMS OF SERVICE
+----------------
+
+A.	Xavor is the owner of Assist+; and
+
+B.	Customer desires to obtain from Xavor, and Xavor desires to grant to Customer a license to use such software, subject to the limitations and restrictions set forth herein.
+
+Now, therefore, the parties hereto hereby agree as follows:
+
+1.	DEFINITIONS
+
+	“Location(s)” shall mean those locations which are authorized for the use of the Xavor Software as described herein.
+ 
+	“Material Defect” shall mean the material noncompliance of the Xavor Software with the specifications set forth in the documentation provided to Customer by Xavor.
+
+	“Server(s)” shall mean the number of computer servers of Customer that are authorized to operate the Xavor Software
+
+	“Users” shall mean the number of users authorized to simultaneously use the Xavor Software to be connected to a Server.
+
+	“Xavor Confidential Information” shall mean: (a) the Xavor Software and any technical information concerning or related to the Xavor Software, the related documentation, and all developer tools provided by Xavor hereunder; (b) Xavor’s plans or forecasts regarding the future development of any particular software, service, or other product or any feature thereof; and (c) other information that is marked confidential or proprietary (or, if disclosure is made orally, information that is reduced or summarized in writing or other tangible form).
+
+	“Xavor Software” shall mean the Xavor proprietary software 
+
+
+2.	GRANT OF LICENSE
+
+2.1	License.  Subject to Section 5 hereof and the payment of the License Fees, Xavor grants Customer a [perpetual (subject to Section 5)], non-exclusive, non-assignable (subject to Section 11.7 below), non-transferable (subject to Section 11.7 below) license to do the following at the Locations:  (a) install the Xavor Software on the number of Servers listed in the license agreement(b) configure the Xavor Software for use in Customer’s business following the installation guide provided by Xavor, and (c) deploy the Xavor Software to  authorized devices and/or workstations (subject to Section 4) .
+
+2.2	Other Parties.  Customer may not sublicense or transfer the Xavor Software or the license granted hereunder (except as set out in Section 11.7 below).
+
+2.3	Copies.  All of the authorized copies of the Xavor Software, including the original copies provided by Xavor, the installed copies, and any back-up copies must be kept in the possession and under the control of Customer at all times.
+
+2.4	Reservation of Rights.  Xavor reserves all rights not expressly granted to Customer under this License.
+
+2.5	Third Party Software.      Certain third party software products are required to be used in conjunction with the Xavor Software.  Customer is solely responsible for obtaining licenses to use such software at its own expense.
+
+
+3.	DELIVERY, ACCEPTANCE AND PAYMENT
+
+3.1	Delivery and Acceptance.  Xavor shall deliver to Customer one (1) copy of the Xavor Software in executable form on the Delivery Date by allowing it to be downloaded from the Xavor website.  The Xavor Software shall be deemed accepted by Customer upon such delivery.
+
+3.2	License Fees.  In consideration of this License and the licenses granted herein with respect to the Xavor Software, Customer shall pay to Xavor the License Fees upon the terms and in the manner described on Exhibit A hereto.  All License Fees are exclusive of applicable taxes, and Customer agrees to bear, be responsible for the payment of, and promptly report to Xavor, all taxes assessed by any level of government, including, but not limited to, all sales, use, VAT, rental receipt, import, export, personal property or other taxes which may be levied or assessed in connection with the delivery, installation, or use of the Xavor Software or any services provided by Xavor under this License, except for taxes based on Xavor’s net income that are assessed by the United States or one of its subdivisions.
+
+
+4.	RESTRICTIONS ON USE
+Customer may use the Xavor Software only at the Location(s) specified in the license agreement and may not use the Xavor Software at any other location or for any third parties without the prior written consent of Xavor.  Customer may not make any changes or modifications to the Xavor Software, without the express instructions of Xavor.  Customer is prohibited from decompiling, disassembling, or otherwise reverse engineering the Xavor Software.  Customer may not sublicense, lease, rent, sell, give, or otherwise transfer the Xavor Software to anyone (except as permitted under Section 11.7 below).  Customer may not make copies of the Xavor Software or documentation for use by any third parties, and may only use the Xavor Software and documentation as expressly set forth in this License.
+
+
+5.	TERM OF THIS LICENSE
+The term of this License is indefinite.  Customer may use the Xavor Software and documentation provided under this License for as long as it is useful, provided that Xavor complies with the terms and conditions of this License.  Customer may terminate the license granted herein at any time by destroying all copies of the Xavor Software and documentation and certifying to Xavor in writing that Customer has destroyed all copies of the Xavor Software and documentation and that it elects to terminate the License.  Xavor may terminate this License and all licenses granted hereunder if Customer fails to correct any material breach of this License within sixty (60) days after receiving written notice of the breach from Xavor.  Sections 4.0, 8.0, 10.0 and 11.0 shall survive the termination of this License. 
+
+
+6.	SOFTWARE MAINTENANCE
+A separate Agreement for Maintenance and Support shall be executed  and is renewable annually.
+
+
+7.	NO SOURCE CODE
+Xavor will provide the Xavor Software in executable code form only.  Customer shall have no right to access the source code for the Xavor Software under any circumstances under this License.
+
+
+8.	LIMITED WARRANTY AND DISCLAIMER OF LIABILITY
+
+8.1	Limited Warranty.  Xavor warrants that for a period of ninety (90) days from the date of delivery of the Xavor Software to Customer that:
+(a)	The original media which the Xavor Software is recorded on and the documentation provided with it are free from defects in material and workmanship under normal use.  If there is a defect in any media or documentation, Xavor will replace the defective item without charge on an exchange basis.  
+(b)	The Xavor Software will be free of Material Defects provided that the software is properly configured, installed, and operated by the Customer.  In the event of a Material Defect, Xavor will either replace or correct the defective Xavor Software without additional charge.  Xavor may at its option fulfill this obligation by exchanging with Customer corrective code or a corrected copy of the Xavor Software.  If for any reason Xavor is unable to cure such Material Defect after a reasonable effort, Xavor may, at its sole option, terminate this License and refund the License Fees actually paid by Customer for the defective component.
+
+8.2	Remaining Warranty Period.  Items replaced under warranty will be warranted for the remainder of the original warranty term or thirty (30) days, whichever is greater.
+
+8.3	Exclusions.  Xavor does not warrant that the functions contained in the Xavor Software will meet Customer’s requirements or that the operation of the Xavor Software will be uninterrupted or error free.  The warranty does not cover any media or documentation which has been subjected to damage or abuse by Customer. The Xavor Software warranty does not cover any copy of the Xavor Software which has been altered or changed in any way by Customer except through the use of the tools provided by Xavor, used in accordance with the instructions in their documentation.  Xavor is not responsible under this warranty for problems caused by changes in the operating characteristics of the computer hardware or operating systems which are made after the execution of this License or the delivery of the Xavor Software, whichever first occurs, nor for problems in the interaction of the Xavor Software with any other software unless it is provided or specified by Xavor.
+
+8.4	No Implied Warranties.  ANY IMPLIED OR STATUTORY WARRANTIES COVERING THE MEDIA, THE DOCUMENTATION, OR THE XAVOR SOFTWARE INCLUDING ANY WARRANTIES OF MERCHANTABILITY, NONINFRINGEMENT OR FITNESS FOR A PARTICULAR PURPOSE ARE EXPRESSLY EXCLUDED AND DISCLAIMED.
+
+8.5	No Consequential Damages.  XAVOR SHALL NOT IN ANY CASE BE LIABLE FOR SPECIAL, INCIDENTAL, CONSEQUENTIAL, INDIRECT, PUNITIVE OR OTHER SIMILAR DAMAGES ARISING FROM BREACH OF WARRANTY, BREACH OF CONTRACT, NEGLIGENCE, OR ANY OTHER LEGAL THEORY EVEN IF XAVOR OR ITS AGENT HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+8.6	Obligations of Customer.  In order to obtain warranty replacements for any defective Xavor Software or documentation, Customer must contact Xavor during the warranty period. Customer must be able to provide Xavor’s technical support representative with sufficient technical information about the nature of the apparent problem and the precise circumstances that give rise to the problem, to enable Xavor to reproduce the difficulty.
+
+8.7	Sole Remedies.  The warranties set forth above are in lieu of all other warranties, whether oral, written, express, or implied, and THE REMEDIES SET FORTH ABOVE ARE CUSTOMER’S SOLE AND EXCLUSIVE REMEDIES.  Only an authorized officer of Xavor may make modifications to this warranty, or additional warranties binding on Xavor.  Accordingly, additional statements such as advertising or presentations, whether oral or written, do not constitute warranties by Xavor and should not be relied upon as such.
+
+8.8	Limitation on Liability.  In no event shall Xavor’s liability under this License exceed the License Fees paid by Customer hereunder.  Customer agrees and acknowledges that the License Fees paid to Xavor are based in part on the limited warranty and limitation of liability and remedy set forth herein.
+
+
+9.	PATENT, COPYRIGHT, TRADEMARK, AND TRADE SECRET INDEMNITY
+Xavor will defend or settle, at Xavor’s expense, any action brought against Customer based on a claim that the use of the Xavor Software as provided for in this License infringes any U.S. patent or U.S. copyright, provided that Customer, at Customer’s expense:  (a) notifies Xavor promptly in writing of any claim; (b) supplies Xavor with all available information, assistance and authority that Xavor requires to defend or settle the claim; and (c) that Customer permits Xavor to control the defense, compromise, or settlement of the claim.  Customer may not incur any cost or expense subject to this indemnity without the advance written consent of Xavor.  If Xavor determines that the Xavor Software does or is likely to infringe the rights of a third party, Xavor may at its option:  (a) procure at no cost to Customer the right to continue to use the Xavor Software in accordance with this License; (b) replace or modify the Xavor Software to avoid the infringement on an exchange basis; or (c) terminate this License and refund the License Fees paid by Customer for the use of the Xavor Software with Xavor’s liability decreasing from 100% of the License Fees paid to 0% of the of the License Fees over a period of 36 months at the rate of 1/36 per month beginning with the first full month following the delivery of the Xavor Software to Customer.  Xavor shall have no obligation to indemnify Customer in the event of any infringement if caused by modifications to the Xavor Software, or performed by any party other than Xavor, or due to the use of the Xavor Software in conjunction with third party materials where but-for such use, there would have been no such infringement. This provision states Xavor’s entire liability for any infringement of any third party rights.
+
+
+10.	CONFIDENTIALITY
+
+10.1	Nondisclosure of Xavor Confidential Information.  Customer agrees to maintain in confidence the Xavor Confidential Information by using at least the same physical and other security measures as Customer uses for its own confidential technical information, documentation and other intellectual property.  Customer further agrees not to disclose the Xavor Confidential Information, or any aspect thereof, to anyone other than such persons who (a) have a need to know or obtain access to such information in order to support Customer’s use of the Xavor Software as authorized herein and (b) are bound to protect such information against any other use or disclosure.  These obligations shall not apply to any information generally available to the public without violation of any obligation of confidentiality.  
+
+10.2	Injunctive Relief.  Customer acknowledges that any use or disclosure of the Xavor Confidential Information or other confidential information in connection with the Xavor Software in a manner inconsistent with the provisions of this License may cause Xavor irreparable damage for which remedies other than injunctive relief may be inadequate, and Customer agrees that Xavor shall be entitled to receive from a court of competent jurisdiction injunctive or other equitable relief to restrain such use or disclosure in addition to other appropriate remedies.
+
+10.3	Confidentiality of Terms.  Xavor and Customer agree that the terms and conditions of this License are confidential, and that neither party shall disclose the contents of this License without the prior written consent of the other except as expressly set forth herein.
+
+
+11.	GENERAL CONDITIONS
+
+11.1	Governing Law.  This License shall in all respects be interpreted, construed in accordance with, and governed by the internal laws of the State of California, without regard to the rules on conflict of laws.  The parties exclude the application of the 1980 United Nations Convention on Contracts for the International Sale of Goods if otherwise applicable.  The place of making and the place of performance for all purposes shall be Irvine, California regardless of the actual place of execution or performance.  In the event of any litigation between the parties, the parties stipulate that the sole and exclusive jurisdiction for such action shall be in the State Courts for Orange County, California or the United States District Court for the Central District of California.  Both parties agree that the above referenced courts shall have personal and exclusive jurisdiction over the parties for any dispute arising out of this License that is not covered by the Arbitration provision.
+
+11.2	Injunctive Relief; Arbitration.  Except for the right of either party to apply to a court of competent jurisdiction for a temporary restraining order, a preliminary injunction, or other equitable relief to preserve the status quo or prevent irreparable harm pending the selection and confirmation of the arbitrator(s), all disputes, controversies, or differences which may arise between the parties, out of, in relation to, or in connection with this License, or the breach thereof, shall be finally settled by binding arbitration pursuant to the Commercial Arbitration Rules of the American Arbitration Association in effect as of the date the dispute arises.  Any such arbitration shall be under the rules and administration of the American Arbitration Association’s Orange County office, and all hearings shall be held in Orange County, California.  The arbitrator(s) shall enforce the express terms of this License, shall follow the applicable law where the License is silent on a matter in dispute, and shall have no authority to award punitive damages nor any damages expressly excluded by the terms of this License.  All proceedings in any arbitration shall be conducted in the English language.  The arbitrator’s award may be enforced in any court of competent jurisdiction.
+
+11.3	Amendments.  This License sets forth the entire agreement and understanding of the parties relating to the subject matter herein and merges all prior discussions, proposals, advertising, or other exchanges between them.  No modification of or amendment to this License, nor any waiver of any rights under this License, shall be effective unless in writing and signed by both parties to this License.
+
+11.4	Notices.  Any notice required or permitted by this License shall be in writing and shall be sent by facsimile and confirmed by prepaid express courier or certified mail addressed to the other party at the address shown on Exhibit A hereto or at such other address for which such party gives notice hereunder.  Such notice shall be deemed to have been given the earlier of the date of actual receipt or three (3) days after deposit in the mail.
+
+11.5	Force Majeure.  Nonperformance of either party shall be excused to the extent that performance is rendered impossible by strike, fire, flood, earthquakes, governmental acts or orders or restrictions, failure of suppliers, or contractors, or any other reason where failure to perform is beyond the control and not caused by the negligence of the non-performing party.
+
+11.6	Severability.  If any provision or provisions of this License shall be held to be invalid, illegal or unenforceable, the validity, legality and enforceability of the remaining provisions shall not in any way be affected or impaired thereby.
+
+11.7	Transferability.  This License is not transferable and may not be assigned by Customer, by operation of law or otherwise, without the prior written consent of Xavor.
+
+11.8	Attorney’s Fees.  In any litigation or arbitration between the parties, the prevailing party shall be entitled to reasonable attorney fees and all costs of proceedings incurred in enforcing this License.
+
+11.9	Entire Agreement.  Xavor rejects any and all printed terms and conditions contained on any purchase order or other ordering document submitted by Customer now and hereafter.  The parties’ performance under this License shall be governed exclusively by the terms and conditions contained in this License and any signed written amendments, supplements, extensions to it.
